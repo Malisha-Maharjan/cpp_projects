@@ -2,7 +2,7 @@
 
 using namespace std;
 
-float area(float length, float breadth) //function with return type
+float area(float length, float breadth) //function with return type 
 {
     float ans;
     ans = (1 / 2.0) * length * breadth;
