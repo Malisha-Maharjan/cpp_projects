@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void area(float length, float breadth);
+void area(float length, float breadth); //with arguments
 
 int main()
 {
