@@ -11,8 +11,7 @@ class Distance
 
     public:
 
-
-    Distance()
+    Distance() //constructor.
     {
         feet = 0;
         inch = 0;
@@ -24,7 +23,7 @@ class Distance
         this->inch = i;
     }
 
-    friend Distance operator +(Distance d1, Distance d2);
+    friend Distance operator +(Distance& d1, Distance& d2); //friend function.
 
     void display()
     {
@@ -33,7 +32,7 @@ class Distance
 
 };
 
-Distance operator +(Distance d1, Distance d2)
+Distance operator +(Distance& d1, Distance& d2)
 {
     Distance temp;
 
@@ -52,4 +51,5 @@ int main()
 
     d3.display();
 
+    return 0;
 }
