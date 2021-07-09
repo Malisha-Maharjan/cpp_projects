@@ -42,7 +42,7 @@ class Writter
         cout << "Written by: " << name << endl;
     }
 
-    // ~Writter()
+    // ~Writter() destructor
     // {
     //     cout << "Written by: " << name << endl;
     // }
