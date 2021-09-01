@@ -17,8 +17,6 @@ T average(T *data, int n) {
     return sum(data, n) / n; 
 }
 
-
-
 int main() {
 
     int data[] = {1, 2,3};
