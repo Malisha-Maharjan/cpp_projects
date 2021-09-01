@@ -28,8 +28,8 @@ class Array {
 
 int main() {
     Array<int>arr;
-    arr.getData();
 
+    arr.getData();
     arr.sumAndAvg();
 
 }
