@@ -15,3 +15,6 @@ int main()
 
     display("a", 2.2);
 }
+
+//yesma chai aba hamle aba main function ma template wala function call garda
+//different type of data type vako arguments pathauna milyo.
